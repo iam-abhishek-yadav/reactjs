@@ -16,5 +16,6 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
+    'no-unsafe-optional-chaining': 'off'
   },
 }

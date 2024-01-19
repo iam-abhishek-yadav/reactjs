@@ -36,7 +36,33 @@
 
 .search-container {
     margin: 10px 5px;
+    display: flex;
+    gap: 5px;
 }
+  
+  .search-box {
+    width: 200px;
+  }
+  
+  .search-container button {
+    color: #2c3e50;
+    border: 2px solid transparent;
+    background-color: #3498db;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border 0.3s ease, color 0.3s ease;
+  }
+  
+  .search-container button:hover {
+    background-color: #2980b9;
+  }
+  
+  .search-container button.active {
+    background-color: #27ae60;
+    border: 2px solid #2980b9;
+    color: #fff;
+  }
+  
 
 .res-container {
     display: flex;
